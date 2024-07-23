@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1877ae26b0.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="header2">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" alt=""></a>
+            <div class="home" id="links">
+                <i class="fa fa-close" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+        </nav>
+        <h1 class="hd">Contact Us</h1>
+    </div>
+    <div class="loc">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41266661.933523476!2d-130.20948844200163!3d50.85492169779693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2s!4v1676870661296!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <div class="contact-us">
+        <div class="row">
+            <div class="ct1">
+                <div>
+                    <i class="fa fa-location"  style="font-size: 28px; color: red; margin: 10px; margin-right:30px;"></i>
+                    <span>
+                        <h5 class="hf">XYZ Road,ABC Building</h5>
+                        <p style="padding: 0;">karachi,sindh in</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" style="font-size: 28px; color: red; margin: 10px; margin-right:30px;"></i>
+                    <span>
+                        <h5 class="hf">0123456789</h5>
+                        <p style="padding: 0;">Monday to Saturday,10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"  style="font-size: 28px; color: red; margin: 10px; margin-right:30px;"></i>
+                    <span>
+                        <h5 class="hf">abc@gmail.com</h5>
+                        <p style="padding: 0;">Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="ct1">
+                <form action="" class="input3">
+                    <input type="text" placeholder="Enter Your Name" required> <br><br>
+                    <input type="email" placeholder="Enter Your Email" required>  <br><br>
+                    <input type="text" placeholder="Enter Your subject" required>  <br><br>
+                    <input type="text" placeholder="Message" required>  <br><br>
+                    <button class="btn2" type="submit"><a href="ty.html" style="text-decoration: none; font-size: 14px; color: rgb(0, 0, 0);">Send Message</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <h4 class="ft1">About Us</h4>
+        <p class="ft2">We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.
+            <br> <br>
+            For More Info Contact Us Via Our Social Media Accounts.</p>
+        <div class="icon">
+            <i class="fa fa-facebook" style="color: rgb(0, 38, 255);"></i>
+            <i class="fa fa-instagram" style="color: rgb(255, 0, 149);"></i>
+            <i class="fa fa-twitter" style="color: rgb(0, 60, 255);"></i>
+            <i class="fa fa-youtube" style="color: rgb(255, 0, 0);"></i>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var links = document.getElementById("links");
+        function show() {
+            links.style.right = "0";
+        }
+        function hide() {
+            links.style.right = "-200px";
+        }
+    </script>
+
+    
+
+
+</body>
+
+</html>
