@@ -1,4 +1,4 @@
-# Static_University_WebStatic University Website
+# Static University Website
 
 Project Overview:
 Welcome to the Static University Website project! This project involves a comprehensive static website for a university, featuring essential pages such as Home, About Us, Courses, Blog, and Contact Us. Each page is designed with a consistent layout, including a header, navigation bar, and footer for a seamless user experience.
